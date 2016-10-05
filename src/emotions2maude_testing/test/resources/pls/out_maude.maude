@@ -1,0 +1,20 @@
+mod @DEVSMM@BEHAVIOR@ is
+   
+  ---- <begin> Importations
+  pr E-MOTIONS .
+  pr DISCRETE_TIME .
+  pr @DEVSMM@ .
+  ---- <end> Importations
+   
+  ---- <begin> Operation declarations
+  op nac@InitialRule : Set Set{@Object} @Model -> @Bool .
+  ---- <begin> Operation declarations
+   
+  ---- <begin> Equations
+  eq 
+    =  .
+  
+  eq nac@InitialRule(OIDSET@:Set,OBJSET@:Set{@Object},MODEL@:@Model)
+    = false .
+  ---- <end> Equations
+endm

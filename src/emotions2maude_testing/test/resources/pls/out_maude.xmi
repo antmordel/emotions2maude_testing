@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Maude="http://MaudeMM/1.0">
+  <Maude:MaudeSpec>
+    <els xsi:type="Maude:SModule" name="@DEVSMM@BEHAVIOR@">
+      <els xsi:type="Maude:ModImportation">
+        <imports xsi:type="Maude:ModuleIdModExp" module="/1"/>
+      </els>
+      <els xsi:type="Maude:ModImportation">
+        <imports xsi:type="Maude:ModuleIdModExp" module="/2"/>
+      </els>
+      <els xsi:type="Maude:ModImportation">
+        <imports xsi:type="Maude:ModuleIdModExp" module="/3"/>
+      </els>
+      <els xsi:type="Maude:Operation" name="nac@InitialRule" coarity="/1/@els.3" arity="/1/@els.0 /1/@els.1 /1/@els.2"/>
+      <els xsi:type="Maude:Equation"/>
+      <els xsi:type="Maude:Equation">
+        <atts>owise</atts>
+        <lhs xsi:type="Maude:RecTerm" op="nac@InitialRule">
+          <args xsi:type="Maude:Variable" type="/1/@els.0" name="OIDSET@"/>
+          <args xsi:type="Maude:Variable" type="/1/@els.1" name="OBJSET@"/>
+          <args xsi:type="Maude:Variable" type="/1/@els.2" name="MODEL@"/>
+        </lhs>
+        <rhs xsi:type="Maude:Constant" op="false"/>
+      </els>
+    </els>
+  </Maude:MaudeSpec>
+  <Maude:SModule name="E-MOTIONS">
+    <els xsi:type="Maude:Sort" name="Set"/>
+    <els xsi:type="Maude:Sort" name="Set{@Object}"/>
+    <els xsi:type="Maude:Sort" name="@Model"/>
+    <els xsi:type="Maude:Sort" name="@Bool"/>
+    <els xsi:type="Maude:Sort" name="OCL-Type"/>
+    <els xsi:type="Maude:Sort" name="@Metamodel"/>
+    <els xsi:type="Maude:Sort" name="GenHandle@devsmm"/>
+    <els xsi:type="Maude:Sort" name="Set{@StructuralFeatureInstance}"/>
+  </Maude:SModule>
+  <Maude:SModule name="DISCRETE_TIME"/>
+  <Maude:SModule name="@DEVSMM@"/>
+</xmi:XMI>

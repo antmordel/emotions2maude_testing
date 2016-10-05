@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gcs:MetamodelGD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gcs="http://www.lcc.uma.es/GCS/1.0" name="@DEVSMM@">
+  <packagesGD name="devsmm">
+    <classesGD name="Plant">
+      <class href="../Metamodel/DEVSMM.ecore#//Plant"/>
+    </classesGD>
+    <classesGD name="PositionedEl">
+      <class href="../Metamodel/DEVSMM.ecore#//PositionedEl"/>
+    </classesGD>
+    <classesGD name="Machine">
+      <class href="../Metamodel/DEVSMM.ecore#//Machine"/>
+    </classesGD>
+    <classesGD name="Generator">
+      <class href="../Metamodel/DEVSMM.ecore#//Generator"/>
+    </classesGD>
+    <classesGD name="GenHead" figurePath="\DEVSJournal\Images\HeadGen.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//GenHead"/>
+    </classesGD>
+    <classesGD name="GenHandle" figurePath="\DEVSJournal\Images\HandleGen.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//GenHandle"/>
+    </classesGD>
+    <classesGD name="Assemble" figurePath="\DEVSJournal\Images\Assembler.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Assemble"/>
+    </classesGD>
+    <classesGD name="Container">
+      <class href="../Metamodel/DEVSMM.ecore#//Container"/>
+    </classesGD>
+    <classesGD name="Tray" figurePath="\DEVSJournal\Images\Tray.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Tray"/>
+    </classesGD>
+    <classesGD name="User" figurePath="\DEVSJournal\Images\User.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//User"/>
+    </classesGD>
+    <classesGD name="Conveyor" figurePath="\DEVSJournal\Images\Conveyor.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Conveyor"/>
+    </classesGD>
+    <classesGD name="LimitedContainer">
+      <class href="../Metamodel/DEVSMM.ecore#//LimitedContainer"/>
+    </classesGD>
+    <classesGD name="Part" figurePath="\DEVSJournal\Images\Part.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Part"/>
+    </classesGD>
+    <classesGD name="Head" figurePath="\DEVSJournal\Images\Head.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Head"/>
+    </classesGD>
+    <classesGD name="Handle" figurePath="\DEVSJournal\Images\Handle.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Handle"/>
+    </classesGD>
+    <classesGD name="Hammer" figurePath="\DEVSJournal\Images\Hammer.JPG">
+      <class href="../Metamodel/DEVSMM.ecore#//Hammer"/>
+    </classesGD>
+    <package href="../Metamodel/DEVSMM.ecore#/"/>
+  </packagesGD>
+</gcs:MetamodelGD>
