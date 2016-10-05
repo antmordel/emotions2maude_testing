@@ -8,13 +8,20 @@ mod @DEVSMM@BEHAVIOR@ is
    
   ---- <begin> Operation declarations
   op nac@InitialRule : Set Set{@Object} @Model -> @Bool .
-  ---- <begin> Operation declarations
+  ---- <end> Operation declarations
    
   ---- <begin> Equations
-  eq 
-    =  .
+  eq [TransferMTE] : mte(_`{_`}(MM@:@Metamodel))
+    = 0 [print " - mte Transfer"] .
+  
+  eq nac@InitialRule(Set`{_`}(mt),none,_`{_`}(MM@:@Metamodel,__(<_:_|_>(hag:OCL-Type,GENHANDLE@DEVSMM@hag@CLASS:GenHandle@devsmm,hag@SFS:Set{@StructuralFeatureInstance}),OBJSET@:Set{@Object})))
+    = true .
   
   eq nac@InitialRule(OIDSET@:Set,OBJSET@:Set{@Object},MODEL@:@Model)
-    = false .
+    = false [owise] .
+  
+  ceq [InitialRuleMTE] : mte(_`{_`}(MM@:@Metamodel,OBJSET@:Set{@Object}))
+    = 0
+    if not(nac@InitialRule(Set`{_`}(mt),none,_`{_`}(MM@:@Metamodel,OBJSET@:Set{@Object}))) [print " - mte InitialRule"] .
   ---- <end> Equations
 endm
